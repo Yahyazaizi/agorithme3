@@ -1,0 +1,25 @@
+algo ex 13
+Algorithme facture
+Variables
+        N: entier
+        p: réel
+Début
+Ecrire ("svp done le nombre de copies: ")
+Lire (N)
+Si N <= 10 alors
+p <-- N *0.30
+Sinon
+Si N <= 30 alors
+p <--10 0.30 + (N-10 )* 0.25
+
+Sinon
+
+p <-10 0.30 + 20 *0.25 + (N -30)* 0.2
+
+fin Si
+
+fin Si
+
+Ecrire ("Le prix de la facture à payer est: ", p )
+
+Fin
